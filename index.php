@@ -217,7 +217,9 @@ $app_name = idx($app_info, 'name', '');
      
     </section>
 <section>
+<h1>
 <P>Aplicação ainda a ser desenvolvida <span>Keep in touch</span></p>
+</h1>
     <?php
       if ($user_id) {
     ?>
