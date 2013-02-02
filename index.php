@@ -240,11 +240,11 @@ $app_name = idx($app_info, 'name', '');
 	   <div id="share-app">
           <p>Share your app:</p>
           <ul>
-            <li>
+            
               <a href="#" class="facebook-button" id="postToWall" data-url="<?php echo AppInfo::getUrl(); ?>">
                 <span class="plus">Post to Wall</span>
               </a>
-            </li>
+            
             
               <a href="#" class="facebook-button speech-bubble" id="sendToFriends" data-url="<?php echo AppInfo::getUrl(); ?>">
                 <span class="speech-bubble">Send Message</span>
