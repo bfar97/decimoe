@@ -380,7 +380,7 @@ $app_name = idx($app_info, 'name', '');
         </li>
         <li>
           <a href="https://developers.facebook.com/docs/guides/canvas/" target="_top" class="icon apps-on-facebook">Apps on Facebook</a>
-          <p>Let users find and connect to their friends in mobile apps and games.</p>
+          <p>Created by <span>Bernardo & Marcos</span></p>
         </li>
       </ul>
     </section>
