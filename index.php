@@ -216,7 +216,8 @@ $app_name = idx($app_info, 'name', '');
       <p>Bem-Vindo à aplicação <span>DA MELHOR TURMA DO MUNDO</span>!</p>
      
     </section>
-
+<section>
+<P>Aplicação ainda a ser desenvolvida <span>Keep in touch</span></p>
     <?php
       if ($user_id) {
     ?>
