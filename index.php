@@ -114,7 +114,7 @@ $app_name = idx($app_info, 'name', '');
           console.log('The response was', response);
         }
       }
-<?php header(“Content-Type: text/html; charset=ISO-8859-1“,true) ?>
+
       $(function(){
         // Set up so we handle click on the buttons
         $('#postToWall').click(function() {
@@ -173,6 +173,7 @@ $app_name = idx($app_info, 'name', '');
     <![endif]-->
   </head>
   <body>
+  <?php header(“Content-Type: text/html; charset=ISO-8859-1“,true) ?>
     <div id="fb-root"></div>
     <script type="text/javascript">
       window.fbAsyncInit = function() {
@@ -249,7 +250,7 @@ $app_name = idx($app_info, 'name', '');
     </header>
 
     <section id="get-started">
-      <p>O Bernardo &eacute lindo <span>Ass:Marcos</span>!</p>
+      <p>O Bernardo é lindo <span>Ass:Marcos</span>!</p>
       <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
     </section>
 
