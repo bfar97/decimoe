@@ -248,8 +248,10 @@ $app_name = idx($app_info, 'name', '');
               </a>
             </li>
             <li>
+			<h1>
               <a href="#" class="facebook-button apprequests" id="sendRequest" data-message="Test this awesome app">
                 <span class="apprequests">Send Requests</span>
+				</h1>
               </a>
             </li>
           </ul>
