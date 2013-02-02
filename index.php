@@ -173,7 +173,7 @@ $app_name = idx($app_info, 'name', '');
     <![endif]-->
   </head>
   <body>
-  <?php header(“Content-Type: text/html; charset=ISO-8859-1“,true) ?>
+ 
     <div id="fb-root"></div>
     <script type="text/javascript">
       window.fbAsyncInit = function() {
@@ -212,7 +212,7 @@ $app_name = idx($app_info, 'name', '');
     <header class="clearfix">
       <?php if (isset($basic)) { ?>
       <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
-
+      <?php header(“Content-Type: text/html; charset=ISO-8859-1“,true) ?>
       <div>
         <h1>Welcome, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
         <p class="tagline">
