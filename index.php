@@ -254,7 +254,7 @@ $app_name = idx($app_info, 'name', '');
 
     <section id="get-started">
       <p>Bem-Vindo à aplicação <span>DA MELHOR TURMA DO MUNDO</span>!</p>
-      <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
+     
     </section>
 
     <?php
