@@ -1,8 +1,6 @@
-<?
-header('Content-Type: text/html; charset=ISO-8859-1');
-?>
 <?php
 
+header('Content-Type: text/html; charset=ISO-8859-1');
 
 require_once('AppInfo.php');
 
