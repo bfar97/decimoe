@@ -216,10 +216,12 @@ $app_name = idx($app_info, 'name', '');
       <p>Bem-Vindo à aplicação <span>DA MELHOR TURMA DO MUNDO</span>!</p>
      
     </section>
-<section>
-<h1>
-<P>Aplicação ainda a ser desenvolvida <span>Keep in touch</span></p>
-</h1>
+	<section>
+	
+	<h1>
+		<P>Aplicação ainda a ser desenvolvida <span>Keep in touch</span></p>
+	</h1>
+	</section>
     <?php
       if ($user_id) {
     ?>
