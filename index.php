@@ -217,7 +217,7 @@ $app_name = idx($app_info, 'name', '');
 	<section>
 	
 	<h1>
-		<P>Aplicação ainda a ser desenvolvida <span>Keep in touch</span></p>
+		<center><P>Aplicação ainda a ser desenvolvida <span>Keep in touch</span></p></center>
 	</h1>
 	</section>
     <?php
