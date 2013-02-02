@@ -114,7 +114,7 @@ $app_name = idx($app_info, 'name', '');
           console.log('The response was', response);
         }
       }
-
+<?php header(“Content-Type: text/html; charset=ISO-8859-1“,true) ?>
       $(function(){
         // Set up so we handle click on the buttons
         $('#postToWall').click(function() {
