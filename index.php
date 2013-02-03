@@ -216,7 +216,11 @@ $app_name = idx($app_info, 'name', '');
       <p>Bem-Vindo à aplicação <span>DA MELHOR TURMA DO MUNDO</span>!</p>
      
     </section>
-	
+	<form action="login.php" method="post">
+		Usuario: <input type="text" name="usuario" /> <br />
+		Senha: <input type="text" name="senha" /> <br />
+		<input type="submit" value="Login" />
+	</form>
 	<section>
 	
 	<h1>
