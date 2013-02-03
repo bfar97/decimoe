@@ -210,6 +210,7 @@ $app_name = idx($app_info, 'name', '');
       <?php } ?>
     </header>
 	
+	
 
     <section id="get-started">
       <p>Bem-Vindo à aplicação <span>DA MELHOR TURMA DO MUNDO</span>!</p>
